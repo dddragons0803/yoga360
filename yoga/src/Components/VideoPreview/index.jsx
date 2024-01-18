@@ -20,7 +20,7 @@ const VideoPreview = ({ video }) => {
         <div className="thumbnail-container">
           <img
             className="video-thumbnail"
-            src={`http://localhost:5001/${video.thumbnail}`}
+            src={`https://yogabackend-n2oj.onrender.com/${video.thumbnail}`}
             alt="Video Thumbnail"
           />
         </div>
