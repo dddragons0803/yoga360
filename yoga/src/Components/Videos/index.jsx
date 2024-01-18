@@ -16,7 +16,7 @@ const Videos = () => {
     const fetchVideos = async () => {
       try {
         // Replace 'http://localhost:5001/api/videos' with your actual backend API endpoint
-        const response = await axios.get('http://localhost:5001/api/videos');
+        const response = await axios.get('https://yogabackend-n2oj.onrender.com/api/videos');
         // console.log(response)
         // Assuming the response data is an array of video objects
         setVideos(response.data);
