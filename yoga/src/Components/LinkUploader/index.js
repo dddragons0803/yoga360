@@ -49,7 +49,7 @@ const LinkUploader = () => {
       formData.append('link', videoInfo.link);
       formData.append('thumbnail', videoInfo.thumbnailFile); // Append the file
 
-      const response = await fetch('http://localhost:5001/api/videos', {
+      const response = await fetch('hhttps://yogabackend-n2oj.onrender.com/api/videos', {
         method: 'POST',
         body: formData,
       });
